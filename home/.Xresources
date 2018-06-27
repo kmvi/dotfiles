@@ -1,0 +1,6 @@
+Rxvt*background: black
+Rxvt*foreground: light gray
+Rxvt*font: xft:Terminus:size=10
+Rxvt*scrollWithBuffer: True
+Rxvt*scrollBar: false
+
