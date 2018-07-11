@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+xrdb -merge ~/.Xresources
+xrandr --output DVI-I-1 --right-of VGA-1
+xset b off
+xset mouse 0 0
+xset r rate 200 40
+urxvtd --quiet --opendisplay --fork
+
+exec openbox-session
+
