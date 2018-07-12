@@ -11,5 +11,7 @@ xsetroot -solid "#2f2f2f"
 
 urxvtd --quiet --opendisplay --fork
 
+numlockx on
+
 exec openbox-session
 
