@@ -4,6 +4,10 @@ Rxvt*font: xft:Terminus:size=12
 Rxvt*scrollWithBuffer: True
 Rxvt*scrollBar: false
 
+! cyan
+*color6:  #00AAAA
+*color14: #55FFFF
+
 Xft.dpi: 120
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
