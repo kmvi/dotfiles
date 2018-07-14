@@ -10,8 +10,8 @@ xset r rate 200 40
 xsetroot -solid "#2f2f2f"
 
 urxvtd --quiet --opendisplay --fork
+numlockx on &
+autocutsel &
 
-numlockx on
-
-exec openbox-session
+dbus-launch --exit-with-session openbox-session
 

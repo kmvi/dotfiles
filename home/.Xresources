@@ -8,6 +8,10 @@ Rxvt*scrollBar: false
 *color6:  #00AAAA
 *color14: #55FFFF
 
+! blue
+*color4:  #0000AA
+*color12: #5555FF
+
 Xft.dpi: 120
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
