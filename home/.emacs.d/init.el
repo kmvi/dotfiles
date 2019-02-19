@@ -44,4 +44,8 @@
 (when (window-system)
   (set-frame-size (selected-frame) 100 30))
 
+;; gpg
+(require 'epa-file)
+(epa-file-enable)
+
 
