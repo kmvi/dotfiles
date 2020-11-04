@@ -1,8 +1,11 @@
-Rxvt*background: black
-Rxvt*foreground: light gray
-Rxvt*font: xft:Terminus:size=12
-Rxvt*scrollWithBuffer: True
-Rxvt*scrollBar: false
+XTerm*background: black
+XTerm*foreground: light gray
+!XTerm*font: xft:Terminus:size=12
+XTerm*renderFont: true
+XTerm*faceName: Consolas
+XTerm*faceSize: 12
+XTerm*scrollWithBuffer: True
+XTerm*scrollBar: false
 
 ! cyan
 *color6:  #00AAAA
@@ -12,11 +15,11 @@ Rxvt*scrollBar: false
 *color4:  #0000AA
 *color12: #5555FF
 
-Xft.dpi: 120
-Xft.autohint: 0
-Xft.lcdfilter:  lcddefault
-Xft.hintstyle:  hintslight
-Xft.hinting: 1
-Xft.antialias: 1
-Xft.rgba: rgb
+!Xft.dpi: 120
+!Xft.autohint: 0
+!Xft.lcdfilter:  lcddefault
+!Xft.hintstyle:  hintslight
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
 
