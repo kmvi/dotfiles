@@ -4,7 +4,6 @@ Type=Application
 Name=redshift
 Comment=
 Exec=redshift -P -O 2900
-RunHook=0
 StartupNotify=false
 Terminal=false
 Hidden=false
