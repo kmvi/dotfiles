@@ -1,7 +1,7 @@
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 xrandr --output DVI-I-1 --primary
-xrandr --output DVI-I-1 --right-of VGA-1
+xrandr --output DVI-I-1 --right-of VGA-0
 
 xset b off
 xset mouse 0 0
@@ -13,5 +13,5 @@ xsetroot -solid "#2f2f2f"
 #numlockx on &
 #autocutsel &
 
-#dbus-launch --exit-with-session fluxbox
-fluxbox
+exec startlxde
+
