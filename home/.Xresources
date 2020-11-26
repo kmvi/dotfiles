@@ -2,10 +2,13 @@ XTerm*background: black
 XTerm*foreground: light gray
 !XTerm*font: xft:Terminus:size=12
 XTerm*renderFont: true
+XTerm*forceBoxChars: true
 XTerm*faceName: Consolas
-XTerm*faceSize: 12
+XTerm*faceSize: 11
 XTerm*scrollWithBuffer: True
 XTerm*scrollBar: false
+XTerm*vt100.geometry: 90x30
+XTerm*selectToClipboard: true
 
 ! cyan
 *color6:  #00AAAA
@@ -15,11 +18,10 @@ XTerm*scrollBar: false
 *color4:  #0000AA
 *color12: #5555FF
 
-!Xft.dpi: 120
-!Xft.autohint: 0
-!Xft.lcdfilter:  lcddefault
-!Xft.hintstyle:  hintslight
-!Xft.hinting: 1
-!Xft.antialias: 1
-!Xft.rgba: rgb
-
+Xft.dpi: 120
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
