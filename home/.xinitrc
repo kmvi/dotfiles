@@ -1,7 +1,7 @@
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 xrandr --output DVI-I-1 --primary
-xrandr --output DVI-I-1 --right-of VGA-0
+xrandr --output DVI-I-1 --right-of VGA-1
 
 xset b off
 xset mouse 0 0
